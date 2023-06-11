@@ -2,19 +2,22 @@
 
 Twitterly is a full-stack web application built using Node.js, React, and MongoDB. It allows users to publish tweets on their Twitter account through a website interface. The application utilizes the Twitter API for posting tweets and stores the published tweets in a MongoDB database.
 
-Features
+Features:
+
 Tweet Publishing: Users can enter the content of their tweet through the website and submit it to be posted on their Twitter account.
 Twitter API Integration: The backend of the application interacts with the Twitter API to publish the tweets on behalf of the user.
 MongoDB Database: Published tweets are saved in a MongoDB database for future reference and retrieval.
 
 
-Tech Stack
+Tech Stack:
+
 Frontend: React
 Backend: Node.js, Express
 Database: MongoDB
 Twitter API: Used for posting tweets
 
 Setup and Installation:
+
 Clone the repository: git clone [https://github.com/your-username/tweet-publisher.git](https://github.com/sheriumair/Twitterly.git)
 Navigate to the project directory: cd Backend
 Install the dependencies: npm install
@@ -29,7 +32,8 @@ Access the application in your browser at: http://localhost:5137
 
 
 
-Usage
+Usage:
+
 Sign up or log in to the website using your credentials.
 Enter the content of your tweet in the provided input field.
 Click the "Publish" button to submit the tweet.
@@ -37,7 +41,8 @@ The backend will make a request to the Twitter API to post the tweet on your acc
 The tweet will be saved in the MongoDB database for future reference.
 You will receive a confirmation message once the tweet is successfully published.
 
-Contributing
+Contributing:
+
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
 
 
